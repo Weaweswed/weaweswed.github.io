@@ -72,15 +72,31 @@ ul {
 .nav_list {
     display: flex;
     justify-content: space-between;
-    width: 220px;
+    width: 270px;
     margin-left: auto;
     margin-right: 30px;
     list-style-type: none;
 }
 
+.href_nav {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 7px 5px;
+}
+
+.href_nav:hover {
+    background-color:#ebeef1;
+}
+
 .href {
     text-decoration: none;
     color: black;
+}
+
+.href_footer {
+    text-decoration: none;
+    color: rgb(106, 104, 104);
 }
 
 .href_active {
@@ -151,10 +167,10 @@ ul {
 }
 
 .works {
-    height: 840px;
+    height: 820px;
     /*background-color: rgb(197, 168, 217);*/
     padding-left: 30px;
-    padding-right: 30px;
+    /*padding-right: 30px;*/
     background-color: #d6dfe5;
 }
 
@@ -191,5 +207,5 @@ ul {
     margin-right: auto;
     padding-left: 30px;
     line-height: 30px;
-    color:rgb(106, 104, 104)
+    color:rgb(106, 104, 104);
 }
