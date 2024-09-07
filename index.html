@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,7 @@
 </head>
 <body>
     <header>
+        <div class="header_container">
             <nav>
                 <div class="logo_group">
                     <a href="index.html"><img src="img/logo.svg" width="50" height="50" alt="logo in title"></a>
@@ -20,74 +21,104 @@
                     <li><a class="href_nav" href="#works_link">Works</a></li>
                 </ul>
             </nav>
+        </div>
     </header>
     <!--<div class="backgroud_preview"></div>-->
-    <main class="pages">
-        <article class="preview">
-            <h1>Frontend developer</h1>
-            <p class="preview_portfolio"> portfolio 2024</p>
+    <main>
+        <div class="preview">
+            <div class="lead_text">
+                <h1>Frontend developer</h1>
+                <p class="preview_portfolio"> portfolio 2024</p>
+            </div>
+        </div>
+        <article class="about">
+            <div class="about_header" id="about_link">
+                <h2>About me</h2>
+                <p>
+                    I hope you came to me to learn about my skills and work.
+                </p>
+                <div class="about_info">
+                    <img class="user_img" src="img/user_me.jpg" alt="photo Andrey Rybkin" width="353" height="470">
+                    <div class="user_info">
+                        <h3>My name is Andrey Rybkin</h3>
+                        <p>
+                            At the moment I am studying at Elbrus Bootcamp.
+                        </p>
+                        <div class="about_contact">
+                            <ul class="contact_list">
+                                <li><a class="href_cont" href="mailto:weaweswed@gmail.com"><strong>E-mail:</strong> Weaweswed@gmail.com</a></li>
+                                <li><a class="href_cont" href="https://telegram.me/"><strong>Telegram:</strong> @Weaweswed</a></li>
+                                <li><a class="href_cont" href="https://github.com/Weaweswed"><strong>GitHub:</strong> https://github.com/Weaweswed</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </article>
-        <article class="about" id="about_link">
-            <h2>About me</h2>
-            <p>
-                I hope you came to me to learn about my skills and work.
-            </p>
-            <div class="about_info">
-                <img class="user_img" src="img/user_me.jpg" alt="photo Andrey Rybkin" width="353" height="470">
-                <div>
-                    <h3>My name is Andrey Rybkin</h3>
-                    <p>
-                        At the moment I am studying at Elbrus Bootcamp.
-                    </p>
-                    <div class="about_contact">
-                        <ul class="contact_list">
-                            <li><a class="href_active" href="mailto:weaweswed@gmail.com"><strong>E-mail:</strong> Weaweswed@gmail.com</a></li>
-                            <li><a class="href_active" href="https://telegram.me/"><strong>Telegram:</strong> @Weaweswed</a></li>
-                            <li><a class="href_active" href="https://github.com/Weaweswed"><strong>GitHub:</strong> https://github.com/Weaweswed</a></li>
+        <article class="knowledge">
+            <div id="knowledge_link" class="knowledge_header">
+                <h2>My knowledge</h2>
+                <p>At the moment, I know the following languages ​​at this level</p>
+                <div class="languages_block">
+                    <div class="languages_complete">
+                        <ul class="languages_list">
+                            <li class="languages_list_item">
+                                <img class="html_5_logo" src="./img/img_logo_languages/html_5_logo.png" alt="HTML 5" width="100" height="100">
+                                <ul class="item_language">
+                                    <li ><strong>HTML5</strong></li>
+                                    <li>Progress: 50% </li>
+                                </ul>
+                            </li>
+                            <li class="languages_list_item">
+                                <img src="./img/img_logo_languages/css_logo.png" alt="CSS" width="100" height="100">
+                                <ul class="item_language">
+                                    <li><strong>CSS</strong></li>
+                                    <li>Progress: 30%</li>  
+                                </ul>
+                            </li>
+                            <li class="languages_list_item">
+                                <img src="./img/img_logo_languages/js_logo.png" alt="JS" width="100" height="100">
+                                <ul class="item_language">
+                                    <li><strong>JS</strong></li>
+                                    <li>Progress: 15%</li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </article>
-        <article id="knowledge_link" class="knowledge">
-            <h2>My knowledge</h2>
-            <div class="languages">
-                <ul class="languages_list">
-                    <li class="languages_list_item">
-                        <img class="html_5_logo" src="img/html_5_logo.svg" alt="HTML 5" width="100" height="200">
-                        <ul class="item_language">
-                            <li ><strong>HTML5</strong></li>
-                            <li>Progress: 50% </li>
+        <article class="works">
+            <div id ="works_link" class="works_header">
+                <h2>My works</h2>
+                <p>You can see my works here:</p>
+                <div class="works_block">
+                    <div class="works_complete">
+                        <ul class="work_list">
+                            <li class="work_list_item">
+                                <ul class="item_work">
+                                    <li><img class="img_item_work" src="./img/img_promo_cards/promo_portfolio.png" width="150" height="75" alt="Promo business card website"></li>
+                                    <li class="about_item_work">Business card website</li>
+                                    <li><a class="href_item_work" href="index.html">Go</a></li>
+                                </ul>
+                            </li>
+                            <li class="work_list_item">
+                                <ul class="item_work">
+                                    <li><img class="img_item_work" src="./img/img_promo_cards/promo_reserved_card.jpg" width="150" height="75" alt="Promo of the future project"></li>
+                                    <li class="about_item_work">reserved space for a future project card</li>
+                                    <li><a class="href_item_work" href="#">Go</a></li>
+                                </ul>
+                            </li>
+                            <li class="work_list_item">
+                                <ul class="item_work">
+                                    <li><img class="img_item_work" src="./img/img_promo_cards/promo_reserved_card.jpg" width="150" height="75" alt="Promo of the future project"></li>
+                                    <li class="about_item_work">reserved space for a future project card</li>
+                                    <li><a class="href_item_work" href="#">Go</a></li>
+                                </ul>
+                            </li>
                         </ul>
-                    </li>
-                    <li class="languages_list_item">
-                        <img src="img/css_3_logo.svg" alt="CSS" width="100" height="200">
-                        <ul class="item_language">
-                            <li><strong>CSS</strong></li>
-                            <li>Progress: 30%</li>  
-                        </ul>
-                    </li>
-                    <li class="languages_list_item">
-                        <img src="img/js_logo.svg" alt="JS" width="100" height="200">
-                        <ul class="item_language">
-                            <li><strong>JS</strong></li>
-                            <li>Progress: 15%</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </article>
-        <article id ="works_link" class="works">
-            <h2>My works</h2>
-            <div class="works_complete">
-                <ul class="work_list">
-                    <li class="work_list_item" >Phase-0<br>week-1<br>day-1<br>Name: fitst-steps<br>Complete task:  complete</li>
-                    <li class="work_list_item">Phase-0<br>week-1<br>day-2<br>Name: html-navigation<br>Complete task:  complete</li>
-                    <li class="work_list_item">Phase-0<br>week-1<br>day-3<br>Name: html-registration
-                        <br>Complete task:  complete</li>
-                    <li class="work_list_item">Phase-0<br>week-1<br>day-4<br>Name: css-rainbow<br>Complete task:  complete</li>
-                    <li class="work_list_item">Phase-0<br>week-1<br>day-5<br>Name: html-hedge-wiki<br>Complete task:  complete</li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </article>
     </main>
@@ -97,7 +128,7 @@
                     <li><a class="href_footer" href="index.html">Andrey Rybkin</a></li>
                     <li>© 2024</li>
                 </ul>
-                <ul>
+                <ul class="footer_nav">
                     <li><a class="href_footer" href="#about_link">About me</a></li>
                     <li><a class="href_footer" href="#knowledge_link">Knowledge</a></li>
                     <li><a class="href_footer" href="#works_link">Works</a></li>
